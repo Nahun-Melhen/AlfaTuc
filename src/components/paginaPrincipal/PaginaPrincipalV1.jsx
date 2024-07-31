@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import '../paginaPrincipal/paginaPrincipal.css';
-import { Container, Row, Carousel, Card } from 'react-bootstrap';
+import { Container, Row, Carousel, Card, Link } from 'react-bootstrap';
 import video1 from '../../assets/alfajor1.mp4';
 import video2 from '../../assets/Colacion.mp4';
 import video3 from '../../assets/Conitos.mp4';
