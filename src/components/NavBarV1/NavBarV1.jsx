@@ -32,9 +32,9 @@ const NavBarV1 = ({ producto }) => {
                 <NavLink to='/contact' className="mx-3">
                   <CallIcon fontSize="large" style={{ color: 'black'}}/>
                 </NavLink>
-                <NavLink to='' className="p-0 mx-3 cursor-pointer" onClick={handleCarrito}>
+                {/*<NavLink to='' className="p-0 mx-3 cursor-pointer" onClick={handleCarrito}>
                   <NavbarCart />
-                </NavLink>
+  </NavLink>*/}
                 {isAuthenticated ? (
                   <ProfileUser/>
                 ) : (
