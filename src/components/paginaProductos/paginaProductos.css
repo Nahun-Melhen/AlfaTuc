@@ -1,0 +1,135 @@
+.columnaCategorias {
+  background-image: url('/src/assets/bannerProductos.jpg');
+  background-size: cover;
+  background-position: bottom;
+  height: 250px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.columnaCategorias h1 {
+  margin: none;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+.cardProduct {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+}
+
+
+.cardProduct .nameProduct {
+  font-size: 22px;
+}
+
+.cardProduct .priceProduct {
+  color: #c8963e;
+  font-size: 22px;
+}
+
+.imgCard {
+  width: 100%;
+  height: 278px;
+  padding: 0;
+  margin: 0;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+.product-buttons .btnAddCart:hover,
+.product-buttons .btnVisibility:hover{
+    background-color: #fccb38;
+    color: #fff;
+}
+.product-buttons .btnAddCart,
+.product-buttons .btnVisibility {
+  background-color: #fbc218;
+  color: #fff;
+  border-radius: 0;
+}
+
+.btnVisibility {
+  color: #fff;
+  margin-left: 3px;
+}
+
+
+.product-buttons button::after ,
+.product-buttons .btnVisibility::after{
+  content: attr(data-text);
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 15px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+
+}
+
+.product-buttons button:hover::after,
+.product-buttons .btnVisibility:hover::after{
+  opacity: 1;
+}
+
+
+/* .divImg .imgProducto {
+  border-radius: 10px;
+  /* width: 600px;
+  height: 600px; 
+} */
+
+.divDatos .txtNombre {
+  color: black;
+}
+
+.divDatos .txtPrecio {
+  color: #c8963e;
+}
+
+.divCarrito .añadirAlCarrito {
+  background-color: #d3cec4;
+  border: #d3cec4;
+  color: #1a1a1a;
+}
+
+.divCarrito .añadirAlCarrito:hover {
+  background-color: #c2beb7;
+  border: #c2beb7;
+  color: #1a1a1a;
+}
+
+.divCarrito .btnComprar {
+  background-color: #c8963e;
+
+  color: #fff;
+}
+
+.divCarrito .btnComprar:hover {
+  background-color: #d8af36;
+
+  color: #fff;
+}
+
+.divDescripcion .txtDescripcion{
+  background-color: transparent;
+  border: none;
+  border-radius: none;
+  color: #c8963e;
+  font-size: 25px; 
+  text-decoration: underline ;
+}
+
+
