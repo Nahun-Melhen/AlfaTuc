@@ -41,7 +41,7 @@ const PaginaPrincipalV1 = () => {
                     </section>
                     <section className='cardContainer cards2'>
                         <section className='mt-5'>
-                            <Link href="/products">
+                            <Link to="/products">
                                 <Card style={{ width: '18rem' }} className='card1 cards3'>
                                     <Card.Img variant="top" src="https://i.postimg.cc/6qfbqhLN/E-comerce.png" className='img1' />
                                     <div className='cardText'>
@@ -51,7 +51,7 @@ const PaginaPrincipalV1 = () => {
                             </Link>
                         </section>
                         <section className='mt-5'>
-                            <Link href="/locales">
+                            <Link to="/locales">
                                 <Card style={{ width: '18rem' }} className='card1 cards3'>
                                     <Card.Img variant="top" src="https://i.postimg.cc/WbsfKQTp/Sucursales.png" className='img1' />
                                     <div className='cardText'>
@@ -61,7 +61,7 @@ const PaginaPrincipalV1 = () => {
                             </Link>
                         </section>
                         <section className='mt-5'>
-                            <Link href="/novedad">
+                            <Link to="/novedad">
                                 <Card style={{ width: '18rem' }} className='card1 cards3'>
                                     <Card.Img variant="top" src="https://i.postimg.cc/NftWtK7c/Novedades.png" className='img1' />
                                     <div className='cardText'>
@@ -71,7 +71,7 @@ const PaginaPrincipalV1 = () => {
                             </Link>
                         </section>
                         <section className='mt-5'>
-                            <Link href="/alfatuc">
+                            <Link to="/alfatuc">
                                 <Card style={{ width: '18rem' }} className='card1 cards3'>
                                     <Card.Img variant="top" src="https://i.postimg.cc/brc4sJ71/conoce-Alfatuc.png" className='img1' />
                                 </Card>
