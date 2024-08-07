@@ -1,10 +1,9 @@
 import React, { useRef } from 'react';
 import '../paginaPrincipal/paginaPrincipal.css';
-import { Container, Row, Carousel, Card, Link } from 'react-bootstrap';
+import { Container, Row, Carousel, Card } from 'react-bootstrap';
 import video1 from '../../assets/alfajor1.mp4';
 import video2 from '../../assets/Colacion.mp4';
 import video3 from '../../assets/Conitos.mp4';
-import { Link } from 'react-router-dom';
 
 const PaginaPrincipalV1 = () => {
 
@@ -41,41 +40,41 @@ const PaginaPrincipalV1 = () => {
                     </section>
                     <section className='cardContainer cards2'>
                         <section className='mt-5'>
-                            <Link to="/products">
+                            <a href="/products">
                                 <Card style={{ width: '18rem' }} className='card1 cards3'>
                                     <Card.Img variant="top" src="https://i.postimg.cc/6qfbqhLN/E-comerce.png" className='img1' />
                                     <div className='cardText'>
                                         <h4 className='text1'><img src="https://i.postimg.cc/zGX6L4c2/Nuestro-E-Comerce.png" alt="E-Comerce" className='img3' /></h4>
                                     </div>
                                 </Card>
-                            </Link>
+                            </a>
                         </section>
                         <section className='mt-5'>
-                            <Link to="/locales">
+                            <a href="/locales">
                                 <Card style={{ width: '18rem' }} className='card1 cards3'>
                                     <Card.Img variant="top" src="https://i.postimg.cc/WbsfKQTp/Sucursales.png" className='img1' />
                                     <div className='cardText'>
                                         <h4 className='text1'><img src="https://i.postimg.cc/HkZKbBGY/Sucursales2.png" alt="Sucursales solo" className='img2' /></h4>
                                     </div>
                                 </Card>
-                            </Link>
+                            </a>
                         </section>
                         <section className='mt-5'>
-                            <Link to="/novedad">
+                            <a href="/novedad">
                                 <Card style={{ width: '18rem' }} className='card1 cards3'>
                                     <Card.Img variant="top" src="https://i.postimg.cc/NftWtK7c/Novedades.png" className='img1' />
                                     <div className='cardText'>
                                         <h4 className='text1'><img src="https://i.postimg.cc/wTknj90s/Novedades2.png" alt="Sucursales solo" className='img6' /></h4>
                                     </div>
                                 </Card>
-                            </Link>
+                            </a>
                         </section>
                         <section className='mt-5'>
-                            <Link to="/alfatuc">
+                            <a href="/alfatuc">
                                 <Card style={{ width: '18rem' }} className='card1 cards3'>
                                     <Card.Img variant="top" src="https://i.postimg.cc/brc4sJ71/conoce-Alfatuc.png" className='img1' />
                                 </Card>
-                            </Link>
+                            </a>
                         </section>
                     </section>
                 </Row>
